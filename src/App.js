@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{mt: 4}}>
       <Slidercomponent/>
       <TenureSelection/>
       <Result/>
