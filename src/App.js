@@ -3,8 +3,16 @@ import TenureSelection from "./Components/TenureSelection";
 import Result from "./Components/Result";
 import { Container, Grid } from "@mui/material";
 import SliderSelect from "./Components/SliderSelect";
+import { useState } from "react";
 
 function App() {
+
+  
+  const [homeValue, setHomeValue] = useState(0)
+  const [downPayment, setDownPayment] = useState(0)
+  const [loanAmount, setLoanAmount] = useState(0)
+  const [loanTerm, setLoanTerm] = useState(0)
+
   return (
     <div className="App">
       <Navbar />
