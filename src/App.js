@@ -29,7 +29,7 @@ function App() {
             <TenureSelection mpdata={mpdata} setmpdata={setmpdata}/>
           </Grid>
           <Grid item xs= {12} md={6}>
-            <Result />
+            <Result mpdata={mpdata}/>
           </Grid>
         </Grid>
       </Container>
