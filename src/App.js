@@ -28,7 +28,7 @@ function App() {
             <SliderSelect mpdata={mpdata} setmpdata={setmpdata} />
             <TenureSelection mpdata={mpdata} setmpdata={setmpdata}/>
           </Grid>
-          <Grid item xs= {12} md={6}>
+          <Grid item xs= {12} md={6} alignItems={'center'}>
             <Result mpdata={mpdata}/>
           </Grid>
         </Grid>
